@@ -1,0 +1,8 @@
+{
+    "default_chain": "ACCEPT",
+    "INPUT":[
+        {"name":"TCPStateRule",
+         "match_if": ["CLOSED"],
+         "action": "DROP"}
+    ]
+}
